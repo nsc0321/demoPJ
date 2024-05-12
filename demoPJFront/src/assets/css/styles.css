@@ -1,0 +1,54 @@
+div.VBox {
+	display: flex;
+	flex-direction: column;
+}
+div.HBox {
+	display: flex;
+	flex-direction: row;
+}
+div.Container {
+	display: flex;
+	flex-direction:column;
+	height: 100vh;
+}
+div.HeaderContainer {
+	height: 30px;
+	background-color: #CCCCCC;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+div.AppContainer {
+	display: flex;
+	flex-direction:row;
+	height: 100vh;
+}
+div.MenuContainer {
+	width: 200px;
+	background-color: #EEEEEE;
+	padding: 20px;
+}
+div.PageContainer {
+	flex-grow: 1;
+	padding: 20px;
+}
+button.def {
+	border: solid2px; border-radius: 20px;
+	background-color: rgb(121, 201, 244);
+}
+.table {
+	border : 1px solid #AAAAAA
+}
+.table th, .table td {
+	box-sizing: border-box;
+	text-align: left;
+}
+.table th {
+	background: #CCCCFF;
+	padding : 0 10px;
+}
+.table td {
+	padding : 3px;
+	overflow : hidden;
+}
